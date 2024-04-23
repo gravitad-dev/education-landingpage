@@ -1,0 +1,26 @@
+{
+  "section1": {
+    "title": ["Online", "Learning you can access", "any where easily!"],
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.....",
+    "textButton": "JOIN COURSE",
+    "images": ["person1.png", "bgHero.png"],
+    "slides": [
+      {
+        "image": "/location.svg",
+        "title": "Pay Us a Visit",
+        "text": "Union St, Seattle, WA 98101, United States"
+      },
+      {
+        "image": "/phone.svg",
+        "title": "Contact Us",
+        "text": "123-456-7890"
+      },
+      {
+        "image": "/mail.svg",
+        "title": "Send Us an Email",
+        "text": "contact@example.com"
+      }
+    ]
+  },
+  "section2": {}
+}
