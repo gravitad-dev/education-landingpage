@@ -6,6 +6,8 @@ function Hero() {
 
   return (
     <section className="w-full  md:min-h-[768px] pt-[60px]">
+      <img src="vector.png" className="absolute top-[12%] left-0" />
+
       <div className="grid grid-cols-1  md:grid-cols-2">
         <div className="flex flex-col items-start justify-center gap-[36px] min-h-[70vh] md:min-h-[768px] w-full md:w-[90%]">
           <h2 className="text-[52px]">

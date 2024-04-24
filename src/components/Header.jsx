@@ -29,7 +29,7 @@ function Header() {
           </ul>
 
           <a href={button.url}>
-            <Button className="bg-gradient-to-r from-[#2E3899] to-[#525FE1] text-white px-[34px] font-semibold">
+            <Button className="bg-gradient-to-r from-[#525FE1] to-[#2E3899]  text-white px-[34px] font-semibold">
               {button.text}
             </Button>
           </a>
