@@ -4,6 +4,9 @@ import Courses from "@/components/section/Courses";
 import About from "@/components/section/About";
 import Features from "@/components/section/Features";
 import Programs from "@/components/section/Programs";
+import Opinion from "@/components/section/Opinion";
+import Footer from "@/components/Footer";
+import Contact from "@/components/section/Contact";
 
 import HeroCarousel from "@/components/HeroCarousel";
 import data from "./data.json";
@@ -36,7 +39,11 @@ function App() {
 
       <Layout>
         <Programs />
+        <Opinion />
+        <Contact />
       </Layout>
+
+      <Footer />
     </body>
   );
 }
