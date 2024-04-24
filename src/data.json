@@ -1,4 +1,18 @@
 {
+  "header": {
+    "pageName": ["Edu", "cation"],
+    "links": [
+      { "title": "Courses", "url": "#courses" },
+      { "title": "About", "url": "#about" },
+      { "title": "Features", "url": "#features" },
+      { "title": "Programs", "url": "#programs" },
+      { "title": "Students", "url": "#opinion" }
+    ],
+    "button": {
+      "text": "CONTACT US",
+      "url": "#contact"
+    }
+  },
   "section1": {
     "title": ["Online", "Learning you can access", "any where easily!"],
     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.....",

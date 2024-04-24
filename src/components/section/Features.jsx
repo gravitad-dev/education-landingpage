@@ -14,7 +14,10 @@ const Card = ({ content }) => {
 function Features() {
   const { title, text, cards } = data.section4;
   return (
-    <section className="relative flex justify-center mt-[74px] bg-[#FFCF59] py-[65px]">
+    <section
+      id="features"
+      className="relative flex justify-center mt-[74px] bg-[#FFCF59] py-[65px]"
+    >
       <img
         src="/ellipse.png"
         className="absolute  top-[28%] left-[-240px] md:top-[22%] lg:top-[-345px] lg:left-0 "

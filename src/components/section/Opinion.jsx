@@ -29,7 +29,7 @@ const Card = ({ content }) => {
 function Opinion() {
   const { title, text, cards } = data.section6;
   return (
-    <section className="my-[124px]">
+    <section id="opinion" className="my-[124px]">
       <div className="flex flex-col justify-center items-center gap-[28px] mb-[64px]">
         <h2 className="text-[52px] text-center">
           <span className="text-[#525FE1] font-bold">{title[0]}</span>{" "}

@@ -5,7 +5,7 @@ function Hero() {
   const { title, text, textButton, images } = data.section1;
 
   return (
-    <section className="w-full  md:min-h-[768px]">
+    <section className="w-full  md:min-h-[768px] pt-[60px]">
       <div className="grid grid-cols-1  md:grid-cols-2">
         <div className="flex flex-col items-start justify-center gap-[36px] min-h-[70vh] md:min-h-[768px] w-full md:w-[90%]">
           <h2 className="text-[52px]">
