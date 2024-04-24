@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 function About() {
   const { title, text, videoURL } = data.section3;
   return (
-    <section className="mt-[126px]">
+    <section className="mt-[124px] ">
       <div className="flex flex-col justify-center items-center gap-[28px] mb-[32px]">
         <h2 className="text-[52px] text-center">
           <span className="text-[#525FE1] font-bold">{title[0]}</span>{" "}

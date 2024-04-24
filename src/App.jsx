@@ -1,7 +1,9 @@
 import Layout from "@/components/Layout";
 import Hero from "@/components/section/Hero";
 import Courses from "@/components/section/Courses";
-import About from "./components/section/About";
+import About from "@/components/section/About";
+import Features from "@/components/section/Features";
+import Programs from "@/components/section/Programs";
 
 import HeroCarousel from "@/components/HeroCarousel";
 import data from "./data.json";
@@ -28,6 +30,12 @@ function App() {
       <Layout>
         <Courses />
         <About />
+      </Layout>
+
+      <Features />
+
+      <Layout>
+        <Programs />
       </Layout>
     </body>
   );
