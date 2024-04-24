@@ -1,4 +1,3 @@
-import Layout from "@/components/Layout";
 import data from "@/data.json";
 import { Button } from "@/components/ui/button";
 

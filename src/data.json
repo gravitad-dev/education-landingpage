@@ -6,21 +6,64 @@
     "images": ["person1.png", "bgHero.png"],
     "slides": [
       {
-        "image": "/location.svg",
-        "title": "Pay Us a Visit",
-        "text": "Union St, Seattle, WA 98101, United States"
+        "title": "150+",
+        "text": "Total Courses"
       },
       {
-        "image": "/phone.svg",
-        "title": "Contact Us",
-        "text": "123-456-7890"
+        "title": "250",
+        "text": "Total Instructor"
       },
       {
-        "image": "/mail.svg",
-        "title": "Send Us an Email",
-        "text": "contact@example.com"
+        "title": "35K+",
+        "text": "Total Student"
       }
     ]
   },
-  "section2": {}
+  "section2": {
+    "title": ["Why we are", "best from others?"],
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.....",
+    "cards": [
+      {
+        "id": 1,
+        "icon": "book.png",
+        "title": "Digital Platform",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....."
+      },
+      {
+        "id": 2,
+        "icon": "idea.png",
+        "title": "Optimal Ideation",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....."
+      },
+      {
+        "id": 3,
+        "icon": "leaf.png",
+        "title": "Favorable Setting",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....."
+      },
+      {
+        "id": 4,
+        "icon": "face.png",
+        "title": "Effective Interaction",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....."
+      },
+      {
+        "id": 5,
+        "icon": "time.png",
+        "title": "Flexible Time",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....."
+      },
+      {
+        "id": 6,
+        "icon": "heart.png",
+        "title": "Reliable",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....."
+      }
+    ]
+  },
+  "section3": {
+    "title": ["About", "Company"],
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.....",
+    "videoURL": "https://www.youtube.com/watch?v=ATVGl9wOJsM"
+  }
 }

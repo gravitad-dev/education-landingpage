@@ -1,6 +1,8 @@
-import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
 import Hero from "@/components/section/Hero";
+import Courses from "@/components/section/Courses";
+import About from "./components/section/About";
+
 import HeroCarousel from "@/components/HeroCarousel";
 import data from "./data.json";
 
@@ -11,8 +13,9 @@ function App() {
       <Layout>
         <Hero />
       </Layout>
-      //
-      <section className="bg-[url(/bgData.png)]  w-full h-[162px] relative">
+
+      {/* info hero */}
+      <section className="bg-[url(/bgData.png)] bg-no-repeat bg-cover w-full h-[162px] relative">
         <div className="absolute right-[0] top-[-62px] w-[62px] overflow-hidden">
           <div className=" w-[124px] h-[124px] bg-[#FFCF59] rounded-full "></div>
         </div>
@@ -21,6 +24,11 @@ function App() {
         </div>
         <HeroCarousel slides={slides} />
       </section>
+
+      <Layout>
+        <Courses />
+        <About />
+      </Layout>
     </body>
   );
 }
