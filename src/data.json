@@ -107,29 +107,29 @@
     ]
   },
   "section5": {
-    "title": ["Our", "Programs"],
+    "title": ["Our", "Projects"],
     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.....",
     "cards": [
       {
         "id": 1,
         "image": "program1.png",
-        "title": "English Programs",
+        "title": "English Project",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley......",
-        "textButton": "READ MORE"
+        "textButton": "VIEW MORE"
       },
       {
         "id": 2,
         "image": "program2.png",
-        "title": "English Programs",
+        "title": "English Project",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley......",
-        "textButton": "READ MORE"
+        "textButton": "VIEW MORE"
       },
       {
         "id": 3,
         "image": "program3.png",
-        "title": "English Programs",
+        "title": "English Project",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley......",
-        "textButton": "READ MORE"
+        "textButton": "VIEW MORE"
       }
     ]
   },
