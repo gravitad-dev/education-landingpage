@@ -8,7 +8,7 @@ import Opinion from "@/components/section/Opinion";
 import Footer from "@/components/Footer";
 import Contact from "@/components/section/Contact";
 
-
+//
 import Header from "@/components/Header";
 import HeroCarousel from "@/components/HeroCarousel";
 import data from "./data.json";
