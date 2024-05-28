@@ -36,4 +36,4 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: dist/  # especifica la carpeta build
-        server-dir: test2/
+        server-dir: test.cleverscomputer.com/
