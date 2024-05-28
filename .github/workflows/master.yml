@@ -36,4 +36,4 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: dist/  # especifica la carpeta build
-        remote-dir: /test2/
+        remote-dir: /test2
