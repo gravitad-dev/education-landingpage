@@ -15,7 +15,7 @@ jobs:
     - name: 🔧 Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '14'  # o la versión que necesites
+        node-version: [18.x]  # o la versión que necesites
 
     - name: 📦 Install dependencies
       run: npm install
@@ -29,4 +29,4 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: build  # especifica la carpeta build
+        local-dir: dist  # especifica la carpeta build
